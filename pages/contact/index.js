@@ -30,7 +30,7 @@ const Contact = () => {
             animate={`show`}
             exit={`hidden`}
           >
-            My contacts <span className={`text-accent`}>.</span>
+            My contacts<span className={`text-accent`}>.</span>
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}

@@ -10,7 +10,7 @@ const Socials = () => {
   return (
     <div className={`flex items-center gap-x-5 text-[32px]`}>
       <Link
-        href={"/public/avatar.png"}
+        href={"/Dev_Zakharchuk_Vitalii.pdf"}
         className={`hover:text-accent transition-all duration-300`}
         target={`_blank`}
       >
