@@ -4,6 +4,7 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper";
 import Slide from "./Slide";
+import {useRouter} from "next/router";
 
 // data
 const workSlides = [
@@ -47,6 +48,7 @@ const workSlides = [
 ];
 
 const WorkSlider = () => {
+  const router = useRouter()
   return (
     <Swiper
       spaceBetween={10}
@@ -56,7 +58,8 @@ const WorkSlider = () => {
     >
       {workSlides.map((slide, index) => {
         return (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} className={`${router.pathname !== '/work' && 'hidden'}`}
+          >
             <Slide
               images={slide.images}
               links={slide.links}

@@ -15,7 +15,7 @@ const Contact = () => {
         initial={`hidden`}
         animate={`show`}
         exit={`hidden`}
-        className={`hidden xl:flex w-[100%] justify-end h-[578px] absolute bottom-0 right-0`}
+        className={`hidden xl:flex w-[550px] justify-end h-auto absolute bottom-0 right-0`}
       >
         <Avatar />
       </motion.div>

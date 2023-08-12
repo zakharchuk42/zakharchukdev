@@ -10,6 +10,7 @@ import {
   HiOutlineDatabase,
   HiOutlineDesktopComputer,
 } from "react-icons/hi";
+import {useRouter} from "next/router";
 
 const serviceData = [
   {
@@ -51,6 +52,8 @@ const serviceData = [
 ];
 
 const ServiceSlider = () => {
+  const router = useRouter()
+
   return (
     <Swiper
       breakpoints={{
@@ -66,6 +69,7 @@ const ServiceSlider = () => {
       freeMode={true}
       pagination={{ clickable: true }}
       modules={[FreeMode, Pagination]}
+      className={`${router.pathname !== '/skills' && 'hidden'}`}
     >
       {serviceData.map((item, index) => {
         return (

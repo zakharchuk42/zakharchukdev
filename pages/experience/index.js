@@ -106,7 +106,7 @@ const About = () => {
             className={`max-w-[500xp] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0`}
           >
             4 years ago, I began freelancing as a developer. Since then, I`ve
-            gained <span className={`text-accent`}>3 years</span> of commercial
+            gained 3 years of commercial
             experience with JavaScript (React, Next, Redux). I went through
             different types of teams like an outsource, outstaff, and product.
             Took part in developing both SPA, CRMs, booking, shops, and
