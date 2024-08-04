@@ -5,13 +5,30 @@ import Avatar from "../../components/Avatar";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
-const aboutData = [
+const aboutData = [{
+  title: "DATA.BET",
+  info: [
+    {
+      title: "Senior Frontend developer",
+      years: "12.2024 - present",
+      stack:
+          "React.js, TypeScript, Storybook, GraphQL, Jest, Vite.js, Webpack, Styled Components, Antd",
+      work: [
+        "Team leader for the development of widgets for e-sports",
+        "Created and implemented architecture for widgets",
+        "Established the practice of online lectures and experience sharing",
+        "Implement CI/CD workflow",
+        "Maintain documentations",
+      ],
+    },
+  ],
+},
   {
     title: "Hivex",
     info: [
       {
-        title: "Frontend developer",
-        years: "12.2022 - now",
+        title: "Middle Frontend developer",
+        years: "12.2022 - 12.2023 (1y 1m)",
         stack:
           "React, Next.js, TypeScript, SSR, GraphQL, Storybook, Jest, Antd",
         work: [
@@ -20,22 +37,6 @@ const aboutData = [
           "Wrote Jest tests for components",
           "Participated of code review",
           "Implemented the logic of deleting, creating a document.",
-        ],
-      },
-    ],
-  },
-  {
-    title: "GetWin",
-    info: [
-      {
-        title: "Frontend developer",
-        years: "04.2022 - 12.2022 (9m)",
-        stack: "React, React hooks, ReduxToolkit, axios, Webpack, SASS",
-        work: [
-          "Worked with endpoints for frontend and backend interaction (REST API)",
-          "Connected the mail service for communication within the CRM and with other mailboxes",
-          "Built a calendar to schedule tasks with notifications, time allocation, and categories using the latest Date-fns libraries",
-          "Implemented the functionality of sections: basket, archive, change log",
         ],
       },
     ],
@@ -61,7 +62,7 @@ const aboutData = [
     info: [
       {
         title: "HTML Coder",
-        years: "09.2020 - 02.2021 (6m)",
+        years: "09.2019 - 02.2021 (1y 6m)",
         stack: "React, React hooks, SASS, MaterialUI, Bootstrap",
         work: ["Built website based on layouts from Figma"],
       },
@@ -105,9 +106,8 @@ const About = () => {
             exit={`hidden`}
             className={`max-w-[500xp] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0`}
           >
-            4 years ago, I began freelancing as a developer. Since then, I`ve
-            gained 3 years of commercial
-            experience with JavaScript (React, Next, Redux). I went through
+            I`ve gained 5 years of commercial
+            experience with JavaScript (React, Next, Redux, Vue, Nuxt, Node.js, Nest.js etc). I went through
             different types of teams like an outsource, outstaff, and product.
             Took part in developing both SPA, CRMs, booking, shops, and
             landings. Now, I am looking for a new opportunity to improve my
