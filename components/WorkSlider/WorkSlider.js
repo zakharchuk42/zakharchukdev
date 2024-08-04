@@ -18,7 +18,31 @@ const workSlides = [
     text: ["Watch,Site", "GitHub,Client", "GitHub,Server"],
     project: {
       name: 'Med Map',
-      stack: 'Next.js 13, TypeScript, Axios, Nest.js, PostgreSQL, TypeORM, Material UI'
+      stack: 'Next.js 13, TypeScript, Axios, Nest.js, PostgreSQL'
+    }
+  },
+  {
+  images: ["/thumb5.png", "/gitCheat.png"],
+  links: [
+    "https://cheat-sh.vercel.app",
+    "https://github.com/zakharchuk42/cheat-sheets",
+  ],
+  text: ["Watch,Site", "GitHub,Frontend"],
+  project: {
+    name: 'Cheat Sheets',
+    stack: 'React, TypeScript, Tailwindcss, Vite'
+  }
+  },
+  {
+    images: ["/thumb4.png", "/gitReadme.png"],
+    links: [
+      "https://zakharchuk42.github.io/readme-charm/",
+      "https://github.com/zakharchuk42/readme-charm",
+    ],
+    text: ["Watch,Site", "GitHub,Frontend"],
+    project: {
+      name: 'ReadME Charm',
+      stack: 'Vue, TypeScript, Tailwindcss, Vite'
     }
   },
   {
@@ -41,8 +65,8 @@ const workSlides = [
     ],
     text: ["Watch,Site", "GitHub,Frontend"],
     project: {
-      name: 'Unsolved case',
-      stack: 'React, Redux Toolkit, Axios, React Router, Material UI'
+      name: 'Rick&Morty',
+      stack: 'React, Redux Toolkit, Axios, React Router'
     }
   },
 ];

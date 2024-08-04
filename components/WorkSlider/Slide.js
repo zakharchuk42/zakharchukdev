@@ -5,6 +5,7 @@ import Link from "next/link";
 
 const Slide = ({ images, links, text, project }) => {
   const isRowSpan = images.length === 3;
+
   return (
     <>
       <div className={`flex text-[36px] mb-2`}>

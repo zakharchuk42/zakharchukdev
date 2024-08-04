@@ -69,7 +69,7 @@ const Contact = () => {
           </Link>
 
           <Link
-            href={"https://t.me/yl42yl"}
+            href={"https://t.me/zkh_42"}
             className={`flex gap-x-4 items-center hover:text-accent transition-all duration-300`}
             target={`_blank`}
           >
